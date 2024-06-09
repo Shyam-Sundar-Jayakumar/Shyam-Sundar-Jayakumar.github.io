@@ -1,4 +1,4 @@
-I am a undergraduate student in the Department of Aeronautical Engineering at Kumaraguru College of Technology. I am currently working as a CFD intern at ExaSlate.
+I am an undergraduate student in the Department of Aeronautical Engineering at Kumaraguru College of Technology. I am currently working as a CFD intern at ExaSlate.
 
 **My interests:**
 * Computational Fluid Dynamics
