@@ -63,7 +63,7 @@ basics:
     - value:
         network: linkedin
         url: https://www.linkedin.com/in/shyam-sundar-j-35b826200/
-      render: false
+      render: true
     - value:
         network: twitter
         username: acrlakshman
@@ -317,7 +317,7 @@ publications:
         pages: '6330'
         thumbnail: gals_phase_change.png
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0021999117307696
+        url: https://doi.org/10.1038/s41598-024-54174-x
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
@@ -337,17 +337,17 @@ publications:
       render: false
     - value:
         type: article
-        author: "Author I, **Author II**, and Author III"
-        title: "Sample title of an article made-up to give demo for profileio"
-        journal: Journal of Computational Physics
-        volume: 334
-        year: 2017
+        author: "Vijayanandh Raja, **Shyam Sundar Jayakumar**, Haribalan Saravana Mohan, Parvathy Rajendran, Beena Stanislaus Arputharaj, Senthil Kumar Madasamy"
+        title: "Design and Multi-Perspective Investigations on Aeroacoustic Noise Reduction Technologies for Anti-Drone Propeller"
+        journal: ASME Gas Turbine India Conference
+        volume: 87721
+        year: 2023
         number: 0
-        pages: 81-101
+        pages: V001T07A002
         thumbnail: levelset_deformation.png
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
-      render: false
+        url: https://doi.org/10.1115/GTINDIA2023-117639
+      render: true
     - value:
         type: thesis
         category: "php" # "php", "masters", "bachelors"
@@ -371,43 +371,44 @@ publications:
       render: false
     - value:
         type: article
-        author: "Author I, **Author II**, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: International Journal of Heat and Fluid Flow
-        volume: 44
-        year: 2013
+        author: "Gopinath Vinayagam, Krishna Priya Maniraj, Rajeshwaran Vijayan, Sudhagaran Duraisamy, **Shyam Sundar Jayakumar**, Arul Prakash Raji, Beena Stanislaus Arputharaj, Parvathy Rajendran, Senthil Kumar Madasamy, Vijayanandh Raja"
+        title: "Design And Multi-Perspective Investigations On The Aerodynamic Performance Factors Of Conventional And Advanced Uav’s Micro Gas-Turbine Engine Nozzles Through Validated Cfd Approach"
+        journal: International Journal of Fluid Mechanics Research
+        volume: 51
+        year: 2024
         number: 0
-        pages: 610-623
+        pages: 15-64
         thumbnail: jet_paper.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0142727X13001707
-      render: false
+        url: https://doi.org/10.1615/InterJFluidMechRes.2024051464
+      render: true
     - value:
         type: article
-        author: "**Author I** and Author II"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: International Journal of Numerical Methods in Fluids
-        volume: 73
-        year: 2013
+        author: "Gopinath Vinayagam, Ragavendra Thaiyan Rajendran, Mahima Swetha Mohan, Beena Stanislaus Arputharaj, **Shyam Sundar Jayakumar**, Sundhar Baskar, Parvathy Rajendran, Raj Kumar Gnanasekaran, Senthil Kumar Madasamy, Vijayanandh Raja"
+        title: "Multi-perspective Investigations of Aerosol’s Non-linear Impact on Unmanned Aerial Vehicle for Air Pollution Control Applications Under Various Aerosol Working Environments"
+        journal: Aerosol Science and Engineering
+        volume: 8
+        year: 2024
         number: 12
-        pages: 1011-1041
+        pages: 213-240
         thumbnail: gals_reinit.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: http://onlinelibrary.wiley.com/doi/10.1002/fld.3834/abstract
-      render: false
+        url: https://doi.org/10.1007/s41810-024-00219-7
+      render: true
     - value:
         type: article
-        author: "Author I, **Author II**, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: "Computational Science & Discovery"
-        volume: 5
-        year: 2012
+        author: "Selvaramanan Vijayalakshmi, Aravindha Vasan Sekar, Ahmed Mohamed Hassan, Beena Stanislaus Arputharaj, **Shyam Sundar Jayakumar**, Hussein AZ AL-bonsrulah, Parvathy Rajendran, Senthil Kumar Madasamy, Arunkumar Karuppasamy, Vijayanandh Raja"
+        title: "Multi perspective structural integrity based computational investigations on airframe of Gyrodyneconfigured multi rotor UAV through coupled CFD and FEA approaches for various lightweight and
+sandwich composites and alloys"
+        journal: "Reviews on Advanced Materials Science"
+        volume: 62
+        year: 2023
         number: 0
-        pages: "014016: 1-36"
+        pages: "20230147"
         thumbnail: interfoam_thumbnail.png
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: http://iopscience.iop.org/1749-4699/5/1/014016
-      render: false
+        url: https://doi.org/10.1515/rams-2023-0147
+      render: true
 gallery:
   label: Gallery
   rank: 5
