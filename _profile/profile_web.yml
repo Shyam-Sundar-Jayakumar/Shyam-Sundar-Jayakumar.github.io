@@ -22,22 +22,22 @@ config:
     resume: resume.pdf # path (relative to _profile/files/) for user submitted resume
 basics:
   name:
-    value: Lakshmi Vera
+    value: Shyam Sundar Jayakumar
     render: true
   label:
     value: Senior Software Engineer
     render: true
   image:
-    value: pic.png
+    value: shyam.jpg
     render: true
   email:
-    value: anumolu@uwalumni.com
+    value: sundarshyam842@gmail.com
     render: true
   phone:
     value: ''
     render: false
   url:
-    value: 'https://profileio.lakshmananumolu.com'
+    value: 'https://Shyam-Sundar-Jayakumar.github.io'
     render: false
   summary:
     label: About me
@@ -54,21 +54,21 @@ basics:
   profiles:
     - value:
         network: googlescholar
-        url: https://scholar.google.com/citations?user=VcGv5cEAAAAJ&hl=en
+        url: https://scholar.google.com/citations?user=KArBSYUAAAAJ&hl=en
       render: true
     - value: # if username is provided but not url, then we generate the url.
         network: github
-        username: acrlakshman
+        username: Shyam-Sundar-Jayakumar
       render: true
     - value:
         network: linkedin
-        url: https://www.linkedin.com/in/lakshmananumolu/
-      render: true
+        url: https://www.linkedin.com/in/shyam-sundar-j-35b826200/
+      render: false
     - value:
         network: twitter
         username: acrlakshman
         url: https://twitter.com/acrlakshman
-      render: true
+      render: false
     - value:
         network: vimeo
         url: https://vimeo.com/user24179204
@@ -90,7 +90,7 @@ work:
           - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
           - brief: ""
             detail: This is the sample text written for the demo of profileio
-      render: true
+      render: false
     - value:
         name: Dreamworks Animation
         location: Glendale, CA
@@ -104,7 +104,7 @@ work:
           - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
           - brief: ""
             detail: This is the sample text written for the demo of profileio
-      render: true
+      render: false
     - value:
         name: Texas A&M
         location: Madison, WI
@@ -125,13 +125,13 @@ education:
   rank: 1
   list:
     - value:
-        institution: University of Wisconsin-Madison
-        url: https://wisc.edu
-        major: Computer Science
+        institution: Kumaraguru College of Technology
+        url: https://kct.ac.in/
+        major: Aeronautical Engineering
         minor: ''
-        degree: Ph.D.
-        grade: 3.9
-        gradeTotal: 4.0
+        degree: B.E.
+        grade: 8.9
+        gradeTotal: 10.0
         courses:
           - CS521 - Computer Graphics
           - CS801 - HPC
@@ -142,16 +142,16 @@ education:
         major: Computer Science and Mathematics
         minor: ''
         degree: B.S.
-      render: true
+      render: false
 projects:
   label: "Projects"
   rank: 3
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
-        name: ProfileIO
-        description: "Delightfully simple website and resume generator for students, researchers, and engineers"
-        team: "_with [Lakshman Anumolu](//lakshmananumolu.com)_"
+        name: SAE Aero Design Challenge
+        description: "Design and development of fixed wing RC plane"
+        team: "_with Sabareesh M, Kadhir Narayanan S_"
         note: ""
         thumbnail: profileio.png
         highlights:
@@ -162,10 +162,10 @@ projects:
           - website
           - YAML
           - markdown
-        startDate: '2020' # string
-        endDate: Present
+        startDate: '2023' # string
+        endDate: '2023' 
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
+        url: ""
         roles:
           - Architect
           - Developer
@@ -198,7 +198,7 @@ projects:
         webPage:
           slug: photorealistic-computational-fluid-dynamics
           detail: project/photorealistic-cfd.md
-      render: true
+      render: false
     - value:
         name: Project VII
         description: Sample text written as part of the demo for ProfileIO
@@ -217,7 +217,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: true
+      render: false
     - value:
         name: Project VI
         description: Sample text written as part of the demo for ProfileIO
@@ -235,7 +235,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: true
+      render: false
     - value:
         name: Project V
         description: Sample text written as part of the demo for ProfileIO
@@ -253,7 +253,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: true
+      render: false
     - value:
         name: Project IV
         description: Sample text written as part of the demo for ProfileIO
@@ -271,7 +271,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: true
+      render: false
     - value:
         name: Project III
         description: Sample text written as part of the demo for ProfileIO
@@ -289,7 +289,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: true
+      render: false
 awards:
   label: Awards & Achievements
   rank: 11
@@ -308,13 +308,13 @@ publications:
   list:
     - value:
         type: article
-        author: "**Author I**, Author II"
-        title: "Made-up title of an article for ProfileIO' demo"
-        journal: Journal of Computational Physics
-        volume: 353
-        year: 2018
-        number: 0
-        pages: 377-406
+        author: "**Shyam Sundar Jayakumar**, Indira Prasanth Subramaniam, Beena Stanislaus Arputharaj, Senthil Kumar Solaiappan, Parvathy Rajendran, It Ee Lee, Senthil Kumar Madasamy, Raj Kumar Gnanasekaran, Arunkumar Karuppasamy, Vijayanandh Raja"
+        title: "Design, control, aerodynamic performances, and structural integrity investigations of compact ducted drone with co-axial propeller for high altitude surveillance"
+        journal: Scientific Reports
+        volume: 14
+        year: 2024
+        number: 1
+        pages: '6330'
         thumbnail: gals_phase_change.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://www.sciencedirect.com/science/article/pii/S0021999117307696
@@ -334,7 +334,7 @@ publications:
         thumbnail: dns_phasechange.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://www.worldscientific.com/doi/abs/10.1142/9789813229440_0008
-      render: true
+      render: false
     - value:
         type: article
         author: "Author I, **Author II**, and Author III"
@@ -347,7 +347,7 @@ publications:
         thumbnail: levelset_deformation.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
-      render: true
+      render: false
     - value:
         type: thesis
         category: "php" # "php", "masters", "bachelors"
@@ -358,7 +358,7 @@ publications:
         year: 2020
         thumbnail: levelset_deformation.png
         url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
-      render: true
+      render: false
     - value:
         type: "unpublished"
         author: "**Author name**, Author 2, Author 3"
@@ -368,7 +368,7 @@ publications:
         year: 2021 # This is optional, it must be entered as a number.
         thumbnail: "levelset_deformation.png"
         url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
-      render: true
+      render: false
     - value:
         type: article
         author: "Author I, **Author II**, and Author III"
@@ -381,7 +381,7 @@ publications:
         thumbnail: jet_paper.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://www.sciencedirect.com/science/article/pii/S0142727X13001707
-      render: true
+      render: false
     - value:
         type: article
         author: "**Author I** and Author II"
@@ -394,7 +394,7 @@ publications:
         thumbnail: gals_reinit.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: http://onlinelibrary.wiley.com/doi/10.1002/fld.3834/abstract
-      render: true
+      render: false
     - value:
         type: article
         author: "Author I, **Author II**, and Author III"
@@ -407,7 +407,7 @@ publications:
         thumbnail: interfoam_thumbnail.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: http://iopscience.iop.org/1749-4699/5/1/014016
-      render: true
+      render: false
 gallery:
   label: Gallery
   rank: 5
@@ -418,36 +418,36 @@ gallery:
         caption:
           title: ProfileIO
           description: "Delightfully simple website and resume generator for students, researchers, and engineers"
-      render: true
+      render: false
     - value:
         type: image
         src: scene_templates.png
         caption:
           title: ""
           description: ""
-      render: true
+      render: false
     - value:
         type: image
         src: bmv_t.gif
         caption:
           title: Basic Model Viewer
           description: "A Qt5 based visualization utility for basic geometric objects"
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: 35UEkzww5ds
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: SRvZxvmoa_g
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: CsZua1qI4Zc
-      render: true
+      render: false
 skills:
   label: Skills
   rank: 6
@@ -506,7 +506,7 @@ custom:
     webPage:
       slug: blog
       detail: custom/blog.md
-    render: true
+    render: false
 
   # Since "value" is not given, this is not rendered in the homepage,
   # but rendered in the route "/blog/profileio"
@@ -514,9 +514,9 @@ custom:
     webPage:
       slug: blog/profileio
       detail: custom/sample-code-snippets-2.md
-    render: true
+    render: false
 
   # rendered in the homepage
   - label: Few Random Points About ProfileIO
     value: custom/sample-code-snippets-1.md
-    render: true
+    render: false
