@@ -1,9 +1,9 @@
-I am currently employed at [This Company]. Before this I was in graduate school at [This University] where I earned a PhD. in [Computer Science](https://www.cs.wisc.edu/) under the supervision of [This Professor].
+I am a undergraduate student in the Department of Aeronautical Engineering at Kumaraguru College of Technology. I am currently working as a CFD intern at ExaSlate.
 
 **My interests:**
-* Computer Graphics
-* Develop web & desktop applications
-* Physics based Modeling and Simulations
+* Computational Fluid Dynamics
+* UAV aerodynamics and flight mechanics
+* Control systems
 
 [This University]: https://wisc.edu
 [This Professor]: https://wisc.edu
