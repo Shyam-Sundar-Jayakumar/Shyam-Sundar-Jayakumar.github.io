@@ -212,7 +212,7 @@ projects:
           - OBJ
           - TLGF
           - surface mesh
-        startDate: '2015'
+        startDate: '2023'
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
