@@ -179,7 +179,7 @@ projects:
         description: "Development of advanced tilting and folding mechanism for VTOL UAVs for compactness for storage and efficient performance."
         team: "_with Sabareesh M, Kadhir Narayanan S_"
         note: ""
-        thumbnail: scene_templates.png
+        thumbnail: Tilt_Cad.jpeg
         highlights:
           - brief: ""
             detail: Scene templates to process CFD results photorealistically
