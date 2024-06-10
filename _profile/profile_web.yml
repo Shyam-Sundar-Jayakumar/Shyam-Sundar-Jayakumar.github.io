@@ -203,7 +203,7 @@ projects:
         description: Implementation of tiltable fixed wings with multi rotor controls for control surface less fixed wing maneuvering using CATIA, Ansys and controller design using MATLAB, Simulink.
         team: ""
         note: ""
-        thumbnail: meshio_t.png
+        thumbnail: Tiltwing.jpg
         highlights:
           - brief: ""
             detail: Sample text written as part of the demo for ProfileIO
