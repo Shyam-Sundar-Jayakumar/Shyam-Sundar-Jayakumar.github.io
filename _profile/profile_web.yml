@@ -175,19 +175,18 @@ projects:
           detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
-        name: Framework to Photorealistically Render Computational Fluid Dynamics Results
-        description: "Scene templates to kick-start scalable rendering of CFD results photorealistically."
-        team: "_with Lakshman Anumolu_"
+        name: Tilting and folding mechanism for VTOL UAV
+        description: "Development of advanced tilting and folding mechanism for VTOL UAVs for compactness for storage and efficient performance."
+        team: "_with Sabareesh M, Kadhir Narayanan S_"
         note: ""
         thumbnail: scene_templates.png
         highlights:
           - brief: ""
             detail: Scene templates to process CFD results photorealistically
         keywords:
-          - CFD
-          - photorealistic
-          - mitsuba
-        startDate: '2020'
+          - UAVs
+          - Tilting and folding mechanism
+        startDate: '2024'
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/scene_templates
@@ -198,11 +197,11 @@ projects:
         webPage:
           slug: photorealistic-computational-fluid-dynamics
           detail: project/photorealistic-cfd.md
-      render: false
+      render: true
     - value:
-        name: Project VII
-        description: Sample text written as part of the demo for ProfileIO
-        team: "_with [Pradeep Garigipati](//pradeepgarigipati.com)_"
+        name: Numerical and computational investigations of Tilt Wing UAV and its control dynamics
+        description: Implementation of tiltable fixed wings with multi rotor controls for control surface less fixed wing maneuvering using CATIA, Ansys and controller design using MATLAB, Simulink.
+        team: ""
         note: ""
         thumbnail: meshio_t.png
         highlights:
