@@ -314,7 +314,7 @@ publications:
         year: 2024
         number: 1
         pages: '6330'
-        thumbnail: gals_phase_change.png
+        thumbnail: Ductdrone.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1038/s41598-024-54174-x
         # webPage:
