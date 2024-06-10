@@ -153,7 +153,7 @@ projects:
         description: "Design and development of fixed wing RC plane"
         team: "_with Sabareesh M, Kadhir Narayanan S_"
         note: ""
-        thumbnail: SAE_RC.jpg
+        thumbnail: SAE_RC.jpeg
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
