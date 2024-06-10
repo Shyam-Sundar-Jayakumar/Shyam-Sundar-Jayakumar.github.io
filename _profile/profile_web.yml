@@ -343,7 +343,7 @@ publications:
         year: 2023
         number: 0
         pages: V001T07A002
-        thumbnail: levelset_deformation.png
+        thumbnail: Propeller.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1115/GTINDIA2023-117639
       render: true
