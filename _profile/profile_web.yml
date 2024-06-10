@@ -216,7 +216,7 @@ projects:
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://github.com/acrlakshman/profileio
-      render: false
+      render: true
     - value:
         name: Project VI
         description: Sample text written as part of the demo for ProfileIO
