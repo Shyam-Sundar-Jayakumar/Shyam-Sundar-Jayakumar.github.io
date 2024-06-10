@@ -199,7 +199,7 @@ projects:
           detail: project/photorealistic-cfd.md
       render: true
     - value:
-        name: Numerical and computational investigations of Tilt Wing UAV and its control dynamics
+        name: Numerical and computational investigations of Tilt Wing UAV and its control dynamics.
         description: Implementation of tiltable fixed wings with multi rotor controls for control surface less fixed wing maneuvering using CATIA, Ansys and controller design using MATLAB, Simulink.
         team: ""
         note: ""
