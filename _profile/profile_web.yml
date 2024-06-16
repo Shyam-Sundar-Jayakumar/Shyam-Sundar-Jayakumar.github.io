@@ -156,7 +156,7 @@ projects:
         thumbnail: SAE_RC.jpeg
         highlights:
           - brief: ""
-            detail: ""
+            detail: Website and resume generator via YAML
         keywords:
           - resume
           - website
@@ -171,8 +171,8 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: sae-rc
-          detail: project/sae-rc.md # if the content is empty, "url" will be linked in the homepage for the project
+          slug: profileio
+          detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
         name: Tilting and folding mechanism for VTOL UAV
