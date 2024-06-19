@@ -2,11 +2,10 @@
 
 * [Documentation](https://acrlakshman.github.com/profileio)
 * Highlights:
-  * Generate website from YAML based profile
-  * Generate r&eacute;sum&eacute; with different themes
-  * Schema used in YAML documents extends the schema from [JSON Resume](https://jsonresume.org)
-  * `gh-pages` branch is generated via github actions
-  * Branch `deployment_platforms` pushed by github actions can be used as production branch to deploy with netlify
+  * Design of fixed wing RC Plane for payload carrying mission using CATIA.
+  * CFD Analysis on the plane to estimate its aerodynamic forces and structural integrity using Ansys. 
+  * Development of the plane for real life testing with appropriate component selection
+  * Placed in the 'Top 13' in the SAE Aero Design Challenge conducted in India
 
 ---
 
