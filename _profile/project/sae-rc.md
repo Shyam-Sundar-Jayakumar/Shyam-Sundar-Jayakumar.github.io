@@ -5,7 +5,7 @@
   * Design of fixed wing RC Plane for payload carrying mission using CATIA.
   * CFD Analysis on the plane to estimate its aerodynamic forces and structural integrity using Ansys. 
   * Development of the plane for real life testing with appropriate component selection
-  * Placed in the 'Top 13' in the SAE Aero Design Challenge conducted in India
+  * Placed 'Top 13' in the SAE Aero Design Challenge conducted in India and second in our region
 
 ---
 
