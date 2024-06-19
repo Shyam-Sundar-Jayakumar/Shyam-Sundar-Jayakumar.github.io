@@ -189,14 +189,14 @@ projects:
         startDate: '2024'
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/scene_templates
+        url: ""
         roles:
           - Architect
           - Developer
         type: application
         webPage:
-          slug: photorealistic-computational-fluid-dynamics
-          detail: project/photorealistic-cfd.md
+          slug: tilt-fold-mechanism
+          detail: project/tilt-fold-mechanism.md
       render: true
     - value:
         name: Numerical and computational investigations of Tilt Wing UAV and its control dynamics.
