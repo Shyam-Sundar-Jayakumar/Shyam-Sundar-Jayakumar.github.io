@@ -189,7 +189,7 @@ projects:
         startDate: '2024'
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/scene_templates
+        url: ""
         roles:
           - Architect
           - Developer
