@@ -215,7 +215,14 @@ projects:
         startDate: '2023'
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
+        url: ""
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: tilt-wing
+          detail: project/tilt-wing.md
       render: true
     - value:
         name: Project VI
