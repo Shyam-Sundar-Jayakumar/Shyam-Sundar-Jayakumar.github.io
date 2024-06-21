@@ -195,8 +195,8 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: photorealistic-computational-fluid-dynamics
-          detail: project/photorealistic-cfd.md
+          slug: tilt-fold-mechanism
+          detail: project/tilt-fold-mechanism.md
       render: true
     - value:
         name: Numerical and computational investigations of Tilt Wing UAV and its control dynamics.
