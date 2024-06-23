@@ -6,7 +6,7 @@ _Design of the UAV_
 
 | | | |
 |-|-|-|
-|![VTOL](bmv/VTOL.jpg)|![transition](bmv/transition.jpg)|![cubehandle](bmv/fixedwing.jpg)|
+|![VTOL](bmv/VTOL.jpg)|![transition](bmv/transition.jpg)|![fixedwing](bmv/fixedwing.jpg)|
 
 ---
 
