@@ -1,12 +1,12 @@
 A unique fixed wing configured UAV, with the capablities of tilting its wing to transition between fixed wing and multirotor configuration with respect to its mission profile
 
-Source code: @ [github repository](https://github.com/acrlakshman/BasicModelViewer)
+
 
 _Design of the UAV_
 
 | | | |
 |-|-|-|
-|![VTOL](bmv/VTOL.jpg)|![transition](bmv/transition.jpg)|![fixedwing](bmv/fixedwing.jpg)|
+|![VTOL](tilt-wing/VTOL.jpg)|![transition](tilt-wing/transition.jpg)|![fixedwing](tilt-wing/fixedwing.jpg)|
 
 ---
 
