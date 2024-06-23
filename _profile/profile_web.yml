@@ -384,7 +384,7 @@ publications:
         year: 2024
         number: 0
         pages: 15-64
-        thumbnail: jet_paper.jpg
+        thumbnail: nozzle.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1615/InterJFluidMechRes.2024051464
       render: true
@@ -397,7 +397,7 @@ publications:
         year: 2024
         number: 12
         pages: 213-240
-        thumbnail: gals_reinit.jpg
+        thumbnail: aerosol.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1007/s41810-024-00219-7
       render: true
@@ -411,7 +411,7 @@ sandwich composites and alloys"
         year: 2023
         number: 0
         pages: "20230147"
-        thumbnail: interfoam_thumbnail.png
+        thumbnail: rams.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1515/rams-2023-0147
       render: true
