@@ -1,4 +1,4 @@
-A [Qt5](http://qt-project.org/qt5) unique fixed wing configured UAV, with the capablities of tilting its wing to transition between fixed wing and multirotor configuration with respect to its mission profile
+A unique fixed wing configured UAV, with the capablities of tilting its wing to transition between fixed wing and multirotor configuration with respect to its mission profile
 
 Source code: @ [github repository](https://github.com/acrlakshman/BasicModelViewer)
 
@@ -6,30 +6,31 @@ _Design of the UAV_
 
 | | | |
 |-|-|-|
-|![teapot](bmv/teapot.gif)|![bunny](bmv/bunny.gif)|![cubehandle](bmv/cubehandle.gif)|
+|![VTOL](bmv/VTOL.jpg)|![transition](bmv/transition.jpg)|![cubehandle](bmv/fixedwing.jpg)|
 
 ---
 
 ##### Goal of this project
 
-* Develop functionalities to generate post-processing files that assist in photo-realistic rendering (e.g. camera settings, lighting details, etc.).
-* Post-process data from simulation engines (e.g. [OpenFOAM](http://www.openfoam.com/)) and generate standard surface meshes for rendering. (There exists both opensource and commercial utilities that does this job, however they heavily concentrate on visualizing the scene with inhouse tools and still lack in providing compatibility with other packages.)
-* Visualize objects that are defined in standard formats like Wavefront OBJ, PLY etc.
-* Open source, easy to understand and also act as a learning platform for computer graphics.
+* To design and develop a effiecient fixed wing UAV capable of performing vertical take off and landing using CATIA.
+* To estimate the design parameters of the UAV such as wing span, propeller dimension.
+* Computational analysis of the components to validate their outcomes such as thrust and lift production.
+* Component selection was carried out to select the appropriate components required to fulfil the requirements of the mission
+* Design of altitude controller to ensure the vertical stability of the UAV using MATLAB Simulink.
 
 ---
 
 ##### Motivation
 
-While rendering results obtained from [OpenFOAM](http://www.openfoam.com/) using [POV-Ray](http://www.povray.org/), I observed the trouble that my friends faced in deciding the camera settings and material properties. Apart from this, the route that we have taken to generate POV-Ray compatible files, which is via [EnSight](https://www.ansys.com/products/fluids/ansys-ensight). Though Basic Model Viewer is not yet fully equipped to address all these issues, I have made some progress along with completing some useful functionalities which can come handy for photo-realistic rendering.
+Fixed wing UAVs are capable of providing a efficient flight in mid air and multi rotor UAVs gives the ability of vertical take-off and Landing. This lured my attention towards VTOL UAVs. Instead of going with the conventional VTOL configuration, I was keen to experiment on tilt wing UAVs, which has the ability to transition between multi rotor mode and fixed wing mode. As these complex configurations require stability, the process was pushed towards modelling altitude and attitude controllers for the UAV
 
 ---
 
-##### Basic usage
+##### Research process
 
-The following demo is aimed to kick-start a user in using this application in their work with some basic tools.
+The following methodology is used to design and analyse the performance of the tiltwing UAV
 
-_Installation_
+_surface model of propellers_
 
 ```sh
 git clone https://github.com/acrlakshman/BasicModelViewer.git BasicModelViewer
