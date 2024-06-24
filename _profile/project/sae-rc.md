@@ -21,7 +21,6 @@ _CAD model of the RC plane_
 
 The RC Plane was specifically built for payload carrying, so the design parameters were estimated with keeping that factor as the top priority.
 
-__
 
 * To begin with, conceptual design of the RC Plane was generated using [CATIA] with the estimated design parameters such as wingspan, fuselage length, control surface dimesions and so on.
 
