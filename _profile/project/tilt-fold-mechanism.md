@@ -1,10 +1,12 @@
 An Unmanned Aerial Vehicle configuration integrated with tilting mechanism of the rotors for forward flight for efficiency, and wing folding mechanism for the wings for compact storage
 
+
 _Design of the mechanism_
 
-| | | |
-|-|-|-|
-|![VTOL](tilt-wing/VTOL.jpg)|![transition](tilt-wing/transition.jpg)|![fixedwing](tilt-wing/fixedwing.jpg)|
+| | |
+|-|-|
+|![isotiltfold](tilt-wing/isotiltfold.jpg)|![sidetiltfold](tilt-wing/sidetiltfold.jpg)|
+                      _Conceptual CAD model_ 
 
 ---
 
@@ -21,70 +23,54 @@ _Design of the mechanism_
 
 Efficiency of an UAV is always been a concern not alone for its flight, but also for its storage. This was the intial spark for this unique configuration of the tiltable and foldable mecahism, which can provide the capablities of efficient flight during VTOL and fixed wing phase; and the wings can be folded for compact storage when not in flight.
 
----
+---  
 
 ##### Research process
 
-The following methodology is used to design and develop the tilting and folding mechanism of the UAV
+The following methodology is used to design and fabricate the tilting and folding m
 
-_Generation of CAD models of the mechanism_
+_CAD model of the gear mechanism_
 
-Initially, with the estimated design parameters, a preliminary model of the mechanisms were modelled using CATIA.
+* Initially, conceptual design of the mechanism was generated using [CATIA] and the gears required for the mechanism was modelled.
 
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
+| | |
+|-|-|
+|![mechaiso](tilt-wing/mechaiso.jpg)||![tiltiso](tilt-wing/tiltiso.jpg)|
+     _Conceptual CAD model of the gear setup for folding and tilting mechanism_ 
 
-_Estimation of gear dimesnsions and production_
+_Estimation of gear design parameters_
 
-Gears play the crucial role in the mechanisms. Their dimensions were estimated with respect to the gear ratios 
+* To form a proper gear assembly, the design parameters of the gears were estimated and with the exact dimensions their geometry was prepared
 
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
+| | |
+|-|-|
+|![gearparameters](tilt-wing/gearparameters.jpg)|![drafttilt](tilt-wing/drafttilt.jpg)|
+          _Parameters to consider estimation_             _Drafting of the modelled assembly_   
 
-Entire UAV geometry was assembled with all the componenets such as wings, fuselage and propellers to perform simulations using moving reference frames for the propellers using Ansys.
+* With the estimated dimensions of the gear, the process proceeded for the production of the parts.
 
-  ![cubehandle](bmv/cubehandle_1.png)
-  _Thanks to [Pradeep Garigipati] for providing OBJ file of this object_
-
-* To get the camera details, _`press c on the keyboard`_, this saves the details in a file `scene_details.txt` in the parent directory. Sample output is as follows
-
-* To show the surface mesh of the object (wireframe), update the `InitializeScene` function as follows
-
-  ![cubehandle](bmv/cubehandle_2.png)
-  _wireframe mode_
-
-* Let us show the normals on the surface mesh of the object, by updating the `InitializeScene` function as follows
-
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
-
-  > Note: Normals do not scale properly with the object dimensions. Hence for now, in case of the objects with small dimensional values, user needs to manually edit the size of normals (e.g. Change the value of `normal_scalar` in `GenericObject.cpp`)
-
-* The following modification shows two objects with different light settings
-
-  In `InitializeScene` function:
-
-  In `Draw` function
-
-  In `TakeDown` function
+|![3dprint](tilt-wing/3dprint.jpg)|
+  _3-D printed gears for the assembly_
 
 
-  ![cubehandle](bmv/cubehandle_teapot.png)
+* With the prepared models, the gears were assembled to produce the exact model as the conceptual design
 
-* Some default shaders are available in the folder `Shaders`.
-* Texture mapping is under development.
+| | |
+|-|-|
+|![foldmech](tilt-wing/foldmech.jpg)|![tiltmech](tilt-wing/tiltmech.jpg)|
+          _Folding mechanism_                       _Tilting mechanism_ 
+
+* Moving forward, these mechanism were integrated with the necessary components such as servo motors and rotors for the test model
+  ![completemech](tilt-wing/completemech.jpg)
+  _Test assembly of the mechanism integrated with all the necessary components to form the configuration of the UAV_
+
+
+*  `Fabrication of the UAV` is not much focused on this test model, but it is in progress for future works.
 
 ---
 
-##### Acknowledgements
 
-* [Hammad Mazhar] both for helping me to understand the basics of computer graphics and for providing his camera class, the basic functionalities of which are used in this project.
-* [Syoyo Fujita] for his obj file loader, which I got through Hammad.
-* [Pradeep Garigipati] for providing sample obj files.
-* [Andrew Seidl]
-
-[Pradeep Garigipati]: https://pradeepgarigipati.com/
-[Hammad Mazhar]: https://github.com/hmazhar
-[Syoyo Fujita]: https://github.com/syoyo
-[Andrew Seidl]: https://github.com/andrewseidl
 [experiment datasheet]: https://store.tmotor.com/product/v505-vtol-motor.html
+[MATLAB Simulink]: https://in.mathworks.com/products/simulink.html
+[CATIA]: https://www.3ds.com/products/catia/catia-v5
+[Ansys]: https://www.ansys.com/en-in
