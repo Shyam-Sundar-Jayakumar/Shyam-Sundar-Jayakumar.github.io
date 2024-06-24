@@ -27,7 +27,7 @@ Efficiency of an UAV is always been a concern not alone for its flight, but also
 
 ##### Research process
 
-The following methodology is used to design and fabricate the tilting and folding m
+The following methodology is used to design and fabricate the tilting and folding mechanism
 
 _CAD model of the gear mechanism_
 
@@ -66,6 +66,7 @@ _Estimation of gear design parameters_
 
 
 *  `Fabrication of the UAV` is not much focused on this test model, but it is in progress for future works.
+  Thank you [Kadhir narayanan] and [Sabareesh] for helping me learn about the gear setup for the mechanism. 
 
 ---
 
@@ -74,3 +75,5 @@ _Estimation of gear design parameters_
 [MATLAB Simulink]: https://in.mathworks.com/products/simulink.html
 [CATIA]: https://www.3ds.com/products/catia/catia-v5
 [Ansys]: https://www.ansys.com/en-in
+[Sabareesh]: https://www.linkedin.com/in/sabareesh-m-500b06215/
+[Kadhir Narayanan]: https://www.linkedin.com/in/kadhir-narayanan-srinivasan-97752a201/
