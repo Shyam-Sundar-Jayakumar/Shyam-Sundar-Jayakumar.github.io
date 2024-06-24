@@ -1,4 +1,4 @@
-A unique fixed wing configured UAV, with the capablities of tilting its wing to transition between fixed wing and multirotor configuration with respect to its mission profile
+A unique fixed wing configured UAV, with the capablities of tilting its wing to transition between fixed wing and multirotor configuration with respect to its mission profile.
 
 
 
@@ -7,7 +7,7 @@ _Design of the UAV_
 | | | |
 |-|-|-|
 |![VTOL](tilt-wing/VTOL.jpg)|![transition](tilt-wing/transition.jpg)|![fixedwing](tilt-wing/fixedwing.jpg)|
-
+         _UAV during VTOL_                 _UAV during transition_                _UAV during forward flight_
 ---
 
 ##### Goal of this project
@@ -32,50 +32,44 @@ The following methodology is used to design and analyse the performance of the t
 
 _surface model of propellers_
 
-With the general formulae to estimate the dimensions of the propeller such as pitch and chord length, the geometry of the vertical and forward propeller model were generated using CATIA.
+* With the general formulae to estimate the dimensions of the propeller such as pitch and chord length, the geometry of the vertical and forward propeller model were generated using [CATIA].
 
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
+| | |
+|-|-|
+|![VProp](tilt-wing/VProp.jpg)|![FProp](tilt-wing/FProp.jpg)|
+          _UAV during VTOL_             _Forward propeller_ 
 
 _computational analysis of the modelled propeller_
 
-With the surface geometry of the propellers, computational model for the propellers to proceed for simulations were generated. With the model, the thrust produced by the propellers were validated with the existing [experiment datasheet]
+* With the surface geometry of the propellers, computational model for the propellers to proceed for simulations were generated. With the model, the thrust produced by the propellers were validated with the existing [experiment datasheet]
 
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
+| | |
+|-|-|
+|![thrust](tilt-wing/thrust.jpg)|![contour](tilt-wing/contour.jpg)|
+  _Obtained results through computational simulation_
 
-Entire UAV geometry was assembled with all the componenets such as wings, fuselage and propellers to perform simulations using moving reference frames for the propellers using Ansys.
+* Entire UAV geometry was assembled with all the componenets such as wings, fuselage and propellers to perform simulations using moving reference frames for the propellers using [Ansys].
 
-  ![cubehandle](bmv/cubehandle_1.png)
-  _Thanks to [Pradeep Garigipati] for providing OBJ file of this object_
-
-* To get the camera details, _`press c on the keyboard`_, this saves the details in a file `scene_details.txt` in the parent directory. Sample output is as follows
-
-* To show the surface mesh of the object (wireframe), update the `InitializeScene` function as follows
-
-  ![cubehandle](bmv/cubehandle_2.png)
-  _wireframe mode_
-
-* Let us show the normals on the surface mesh of the object, by updating the `InitializeScene` function as follows
-
-  ![cubehandle](bmv/cubehandle_3.png)
-  _Object in wireframe mode with normals_
-
-  > Note: Normals do not scale properly with the object dimensions. Hence for now, in case of the objects with small dimensional values, user needs to manually edit the size of normals (e.g. Change the value of `normal_scalar` in `GenericObject.cpp`)
-
-* The following modification shows two objects with different light settings
-
-  In `InitializeScene` function:
-
-  In `Draw` function
-
-  In `TakeDown` function
+| | | |
+|-|-|-|
+|![fullUAVCM](tilt-wing/fullUAVCM.jpg)|![forward](tilt-wing/forward.jpg)|![vertical](tilt-wing/vertical.jpg)|
+  _Results obtained from computational simulations of the UAV_
 
 
-  ![cubehandle](bmv/cubehandle_teapot.png)
+* With the estimated control inputs, altiude controller was modelled using [MATLAB Simulink]
 
-* Some default shaders are available in the folder `Shaders`.
-* Texture mapping is under development.
+| | | |
+|-|-|-|
+|![motorcontrol](tilt-wing/motorcontrol.jpg)|![motorcontrol1](tilt-wing/motorcontrol1.jpg)|![altitudecontrol](tilt-wing/altitudecontrol.jpg)|
+                 _vertical motor model_                       _forward motor model_                           _altitude controller_
+
+* Control inputs such as thrust coefficient and rotor mass moment of inertia, response of the controller was recorded for step input
+
+  ![response](tilt-wing/response.jpg)
+  _Step reseponse_
+
+
+*  `Attitude controller` for the UAV is under development.
 
 ---
 
@@ -91,3 +85,6 @@ Entire UAV geometry was assembled with all the componenets such as wings, fusela
 [Syoyo Fujita]: https://github.com/syoyo
 [Andrew Seidl]: https://github.com/andrewseidl
 [experiment datasheet]: https://store.tmotor.com/product/v505-vtol-motor.html
+[MATLAB Simulink]: https://in.mathworks.com/products/simulink.html
+[CATIA]: https://www.3ds.com/products/catia/catia-v5
+[Ansys]: https://www.ansys.com/en-in
