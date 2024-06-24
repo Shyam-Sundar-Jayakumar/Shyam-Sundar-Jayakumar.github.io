@@ -35,7 +35,7 @@ _CAD model of the gear mechanism_
 
 | | |
 |-|-|
-|![mechaiso](tilt-wing/mechaiso.jpg)||![tiltiso](tilt-wing/tiltiso.jpg)|
+|![mechiso](tilt-wing/mechiso.jpg)||![tiltiso](tilt-wing/tiltiso.jpg)|
      _Conceptual CAD model of the gear setup for folding and tilting mechanism_ 
 
 _Estimation of gear design parameters_
