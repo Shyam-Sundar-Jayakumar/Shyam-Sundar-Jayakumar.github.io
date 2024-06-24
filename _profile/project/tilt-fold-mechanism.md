@@ -49,7 +49,7 @@ _Estimation of gear design parameters_
 
 * With the estimated dimensions of the gear, the process proceeded for the production of the parts.
 
-|![3dprint](tilt-wing/3dprint.jpg)|
+![3dprint](tilt-wing/3dprint.jpg)
   _3-D printed gears for the assembly_
 
 
@@ -57,11 +57,11 @@ _Estimation of gear design parameters_
 
 | | |
 |-|-|
-|![foldmech](tilt-wing/foldmech.jpg)|![tiltmech](tilt-wing/tiltmech.jpg)|
+|![foldmech](tilt-wing/foldmech.jpeg)|![tiltmech](tilt-wing/tiltmech.jpg)|
           _Folding mechanism_                       _Tilting mechanism_ 
 
 * Moving forward, these mechanism were integrated with the necessary components such as servo motors and rotors for the test model
-  ![completemech](tilt-wing/completemech.jpg)
+  ![completemech](tilt-wing/completemech.jpeg)
   _Test assembly of the mechanism integrated with all the necessary components to form the configuration of the UAV_
 
 
