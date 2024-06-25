@@ -60,7 +60,7 @@ _computational analysis of the modelled propeller_
 | | | |
 |-|-|-|
 |![motorcontrol](tilt-wing/motorcontrol.jpg)|![motorcontrol1](tilt-wing/motorcontrol1.jpg)|![altitudecontrol](tilt-wing/altitudecontrol.jpg)|
-          _vertical motor model_                       _forward motor model_                           _altitude controller_
+          _vertical motor model_                _forward motor model_                           _altitude controller_
 
 * Control inputs such as thrust coefficient and rotor mass moment of inertia, response of the controller was recorded for step input
 
