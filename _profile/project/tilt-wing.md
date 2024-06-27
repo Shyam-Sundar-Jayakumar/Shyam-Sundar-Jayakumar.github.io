@@ -7,7 +7,7 @@ _Design of the UAV_
 |-|-|-|
 |![VTOL](tilt-wing/VTOL.jpg)|![transition](tilt-wing/transition.jpg)|![fixedwing](tilt-wing/fixedwing.jpg)|
 
-          _UAV during VTOL_                 _UAV during transition_                _UAV during forward flight_
+_UAV during VTOL_                 _UAV during transition_                _UAV during forward flight_
 ---
 
 ##### Goal of this project
@@ -38,7 +38,7 @@ _surface model of propellers_
 |-|-|
 |![VProp](tilt-wing/VProp.jpg)|![FProp](tilt-wing/FProp.jpg)|
 
-_Vertical propeller_             _Forward propeller_ 
+ _Vertical propeller_             _Forward propeller_ 
 
 _computational analysis of the modelled propeller_
 
@@ -47,7 +47,6 @@ _computational analysis of the modelled propeller_
 | | |
 |-|-|
 |![thrust](tilt-wing/thrust.jpg)|![contour](tilt-wing/contour.jpg)|
-
 _Obtained results through computational simulation_
 
 * Entire UAV geometry was assembled with all the componenets such as wings, fuselage and propellers to perform simulations using moving reference frames for the propellers using [Ansys].
@@ -55,7 +54,6 @@ _Obtained results through computational simulation_
 | | | |
 |-|-|-|
 |![fullUAVCM](tilt-wing/fullUAVCM.jpg)|![forward](tilt-wing/forward.jpg)|![vertical](tilt-wing/vertical.jpg)|
-
 _Results obtained from computational simulations of the UAV_
 
 
@@ -64,8 +62,7 @@ _Results obtained from computational simulations of the UAV_
 | | | |
 |-|-|-|
 |![motorcontrol](tilt-wing/motorcontrol.jpg)|![motorcontrol1](tilt-wing/motorcontrol1.jpg)|![altitudecontrol](tilt-wing/altitudecontrol.jpg)|
-
-          _vertical motor model_                _forward motor model_                           _altitude controller_
+_vertical motor model_                _forward motor model_                           _altitude controller_
 
 * Control inputs such as thrust coefficient and rotor mass moment of inertia, response of the controller was recorded for step input
 
