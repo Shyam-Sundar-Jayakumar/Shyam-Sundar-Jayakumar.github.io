@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1719503246.78647 "resume.xdv" "resume.pdf" "resume" 1719503247.0597 0
-  "resume.xdv" 1719503246.70179 47464 05d0641d2cac76828020903ac9c7d2b2 "xelatex"
+["xdvipdfmx"] 1719849079.34841 "resume.xdv" "resume.pdf" "resume" 1719849079.60236 0
+  "resume.xdv" 1719849079.26995 47464 9d2a589dad8b75140d8a24e25c774467 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1719503236.93967 "./resume.tex" "resume.xdv" "resume" 1719503247.05843 0
-  "./resume.tex" 1719503236.33776 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+["xelatex"] 1719849069.90284 "./resume.tex" "resume.xdv" "resume" 1719849079.60134 0
+  "./resume.tex" 1719849069.46197 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -48,7 +48,7 @@
   "/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1716410060 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
-  "/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty" 1716410060 6565 51fc54b25aee4d72660ec24617f328c4 ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty" 1717617347 6565 9112779ee7624275fd04efaf61c82420 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1716410060 9327 090c6c81eff433de1562ec6a5b1b31ee ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
@@ -56,12 +56,12 @@
   "/opt/texlive/texdir/texmf-dist/tex/latex/tools/multicol.sty" 1717359999 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1713064664 41983 7ec6bfd6bf34339a61f0f08f42298e60 ""
-  "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1717609056 10867988 d10514311d748d60b371928d0d6ec751 ""
-  "/opt/texlive/texdir/texmf.cnf" 1717608899 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "res.cls" 1719503236.33776 25065 00878584ba637ae375b57ce6f6d58323 ""
-  "resume.aux" 1719503236.93776 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "resume.tex" 1719503236.33776 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+  "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1719612519 42052 35ecd812300735c585f9c823dc6159c3 ""
+  "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1719796165 10868513 f54aa3051cd65378bbdf9b5d67b57f04 ""
+  "/opt/texlive/texdir/texmf.cnf" 1719796013 555 bd60ff59e4d560b42d96b004436f91d3 ""
+  "res.cls" 1719849069.48597 25065 00878584ba637ae375b57ce6f6d58323 ""
+  "resume.aux" 1719849069.89797 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "resume.tex" 1719849069.46197 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   (generated)
   "resume.aux"
   "resume.log"

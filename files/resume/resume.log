@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.5)  27 JUN 2024 15:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  1 JUL 2024 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./resume.tex
 (./resume.tex
-LaTeX2e <2024-06-01>
-L3 programming layer <2024-05-08>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
@@ -55,7 +55,7 @@ Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-05-08 L3 programming layer (loader) 
+Package: expl3 2024-05-27 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
@@ -579,15 +579,15 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [3]
  ***********
-LaTeX2e <2024-06-01>
-L3 programming layer <2024-05-08>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11503 strings out of 474256
- 229505 string characters out of 5744508
- 1938542 words of memory out of 5000000
- 34072 multiletter control sequences out of 15000+600000
+ 11503 strings out of 474240
+ 229505 string characters out of 5744134
+ 1938557 words of memory out of 5000000
+ 34088 multiletter control sequences out of 15000+600000
  558525 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,11n,93p,301b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
