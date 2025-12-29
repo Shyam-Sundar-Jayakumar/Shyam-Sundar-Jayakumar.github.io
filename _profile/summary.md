@@ -1,4 +1,4 @@
-I am an undergraduate student in the Department of [Aeronautical Engineering] at [Kumaraguru College of Technology]. I am currently working as a CFD intern at [ExaSlate].
+I am a master's student in the Department of [Aerospace Engineering] at [University of Illinois at Urbana Champaign]. Interested in Multiphase flows and turbulence. I am currently learning about modelling multiphase flows and analysisng the data obtained from the simulations and experiments.
 
 **My interests:**
 * Computational Fluid Dynamics
@@ -9,5 +9,7 @@ I am an undergraduate student in the Department of [Aeronautical Engineering] at
 [This Professor]: https://wisc.edu
 [This Company]: https://github.com/acrlakshman/profileio
 [ExaSlate]: https://exaslate.com
+[University of Illinois at Urbana Champaign]: https://illinois.edu/
 [Kumaraguru College of Technology]: https://kct.ac.in/
+[Aerospace Engineering]: https://aerospace.illinois.edu/
 [Aeronautical Engineering]: https://kct.ac.in/programmes/aeronautical-engineering/
