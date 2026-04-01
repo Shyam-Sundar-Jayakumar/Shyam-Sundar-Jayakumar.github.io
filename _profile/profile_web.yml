@@ -314,6 +314,23 @@ publications:
   list:
     - value:
         type: article
+        author: "Kishore Rangarajan, Blesscin Pushpananthan, Lakshman Anumolu, Kumaresh Selvakumar, **Shyam Sundar Jayakumar**, "
+        title: "Numerical Study of Aerodynamic Flow and the Effects of Spoiler Wings on a Formula Student Race Car"
+        journal: SAE Technical Papers
+        volume: 14
+        year: 2025
+        number: 1
+        pages: '6330'
+        thumbnail: racecar.jpg
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: https://legacy.sae.org/publications/technical-papers/content/2024-01-5247/
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
+      render: true
+  
+    - value:
+        type: article
         author: "**Shyam Sundar Jayakumar**, Indira Prasanth Subramaniam, Beena Stanislaus Arputharaj, Senthil Kumar Solaiappan, Parvathy Rajendran, It Ee Lee, Senthil Kumar Madasamy, Raj Kumar Gnanasekaran, Arunkumar Karuppasamy, Vijayanandh Raja"
         title: "Design, control, aerodynamic performances, and structural integrity investigations of compact ducted drone with co-axial propeller for high altitude surveillance"
         journal: Scientific Reports
@@ -400,20 +417,6 @@ publications:
         thumbnail: aerosol.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://doi.org/10.1007/s41810-024-00219-7
-      render: true
-    - value:
-        type: article
-        author: "Selvaramanan Vijayalakshmi, Aravindha Vasan Sekar, Ahmed Mohamed Hassan, Beena Stanislaus Arputharaj, **Shyam Sundar Jayakumar**, Hussein AZ AL-bonsrulah, Parvathy Rajendran, Senthil Kumar Madasamy, Arunkumar Karuppasamy, Vijayanandh Raja"
-        title: "Multi perspective structural integrity based computational investigations on airframe of Gyrodyneconfigured multi rotor UAV through coupled CFD and FEA approaches for various lightweight and
-sandwich composites and alloys"
-        journal: "Reviews on Advanced Materials Science"
-        volume: 62
-        year: 2023
-        number: 0
-        pages: "20230147"
-        thumbnail: rams.jpg
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://doi.org/10.1515/rams-2023-0147
       render: true
 gallery:
   label: Gallery
