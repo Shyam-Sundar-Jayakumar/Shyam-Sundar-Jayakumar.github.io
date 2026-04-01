@@ -19,13 +19,17 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Use node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
+
+    - uses: actions/setup-go@v5
+      with:
+        go-version: ${{ matrix.go }}
 
     # Currently build is only made for gh-pages, this is not necessary.
     # - name: npm install and build
@@ -46,20 +50,17 @@ jobs:
         yarn run build
         cp spa-github-pages/404.html build/
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: web-build-gh-pages
         path: build/
 
-    - uses: actions/setup-go@v3
-      with:
-        go-version: ${{ matrix.go }}
     - name: Generate TeX file for resume
       run: |
         cd resume
         go run main.go
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: resume-tex-ubuntu
         path: ./resume/resume/
@@ -75,13 +76,17 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Use node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
+
+    - uses: actions/setup-go@v5
+      with:
+        go-version: ${{ matrix.go }}
 
     # No need to build here, all that is needed is profile_resume.json.
     - name: npm install and build
@@ -90,15 +95,12 @@ jobs:
         yarn install
         yarn run build
 
-    - uses: actions/setup-go@v3
-      with:
-        go-version: ${{ matrix.go }}
     - name: Generate TeX file for resume
       run: |
         cd resume
         go run main.go
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: resume-tex-macos
         path: ./resume/resume/
@@ -110,7 +112,7 @@ jobs:
 
     steps:
     - name: Download TeX files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: resume-tex-ubuntu
     - name: TeX to pdf on Linux
@@ -118,7 +120,7 @@ jobs:
       with:
         root_file: ./resume.tex
         latexmk_use_xelatex: true
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: resume-ubuntu
         path: ./*
@@ -130,7 +132,7 @@ jobs:
 
     steps:
     - name: Download TeX files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: resume-tex-macos
     - name: Build TeX files
@@ -140,7 +142,7 @@ jobs:
         brew install --cask mactex-no-gui
         eval "$(/usr/libexec/path_helper)"
         xelatex resume.tex
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: resume-macos
         path: ./*
@@ -152,7 +154,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         persist-credentials: false
     - name: Update branch deployment_platforms with main
@@ -162,7 +164,7 @@ jobs:
         BRANCH: deployment_platforms
         FOLDER: .
     - name: Download artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
     - name: Prepare gh-pages
       run: |
         mkdir -p gh-pages
@@ -190,11 +192,11 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         persist-credentials: false
     - name: Download artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
     - name: Prepare gh-pages-mac
       run: |
         mkdir -p gh-pages-mac
@@ -226,13 +228,17 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Use node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
+
+    - uses: actions/setup-go@v5
+      with:
+        go-version: ${{ matrix.go }}
 
     - name: npm install and build
       run: |
@@ -240,9 +246,6 @@ jobs:
         yarn install
         yarn run build
 
-    - uses: actions/setup-go@v3
-      with:
-        go-version: ${{ matrix.go }}
     - name: Generate TeX file for resume
       run: |
         cd resume
