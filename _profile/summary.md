@@ -1,9 +1,10 @@
-I am a master's student in the Department of [Aerospace Engineering] at [University of Illinois at Urbana Champaign]. Interested in Multiphase flows and turbulence. 
+I am a master's student in the Department of [Aerospace Engineering] at [University of Illinois at Urbana Champaign]. 
 
 **My interests:**
 * Computational Fluid Dynamics
-* UAV aerodynamics and flight mechanics
-* Control systems
+* Aerodynamics
+* Finite Element analysis
+* Vehicle design and analysis
 
 [This University]: https://wisc.edu
 [This Professor]: https://wisc.edu
