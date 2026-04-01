@@ -321,7 +321,7 @@ publications:
         year: 2025
         number: 1
         pages: '6330'
-        thumbnail: racecar.jpg
+        thumbnail: racecar.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://legacy.sae.org/publications/technical-papers/content/2024-01-5247/
         # webPage:
