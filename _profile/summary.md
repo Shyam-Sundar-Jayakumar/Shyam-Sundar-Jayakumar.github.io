@@ -1,0 +1,16 @@
+I am a master's student in the Department of [Aerospace Engineering] at [University of Illinois at Urbana Champaign]. 
+
+**My interests:**
+* Computational Fluid Dynamics
+* Aerodynamics
+* Finite Element analysis
+* Vehicle design and analysis
+
+[This University]: https://wisc.edu
+[This Professor]: https://wisc.edu
+[This Company]: https://github.com/acrlakshman/profileio
+[ExaSlate]: https://exaslate.com
+[University of Illinois at Urbana Champaign]: https://illinois.edu/
+[Kumaraguru College of Technology]: https://kct.ac.in/
+[Aerospace Engineering]: https://aerospace.illinois.edu/
+[Aeronautical Engineering]: https://kct.ac.in/programmes/aeronautical-engineering/
