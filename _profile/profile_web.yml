@@ -317,10 +317,10 @@ publications:
         author: "Kishore Rangarajan, Blesscin Pushpananthan, Lakshman Anumolu, Kumaresh Selvakumar, **Shyam Sundar Jayakumar**, "
         title: "Numerical Study of Aerodynamic Flow and the Effects of Spoiler Wings on a Formula Student Race Car"
         journal: SAE Technical Papers
-        volume: 14
+        # volume: 14
         year: 2025
-        number: 1
-        pages: '6330'
+        # number: 1
+        # pages: '6330'
         thumbnail: racecar.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: https://legacy.sae.org/publications/technical-papers/content/2024-01-5247/
