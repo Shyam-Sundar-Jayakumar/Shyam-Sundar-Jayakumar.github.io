@@ -25,7 +25,7 @@ basics:
     value: Shyam Sundar Jayakumar
     render: true
   label:
-    value: Aeronautical Engineering student
+    value: Aerospace Engineering student
     render: true
   image:
     value: shyam.jpg
@@ -125,6 +125,13 @@ education:
   rank: 1
   list:
     - value:
+        institution: University of Illinois Urbana Champaign
+        url: https://illinois.edu/
+        major: Aerospace Engineering
+        minor: ''
+        degree: M.S.
+      render: true
+    - value:
         institution: Kumaraguru College of Technology
         url: https://kct.ac.in/
         major: Aeronautical Engineering
@@ -136,13 +143,6 @@ education:
           - CS521 - Computer Graphics
           - CS801 - HPC
       render: true
-    - value:
-        institution: Texas A&M
-        url: https://wisc.edu
-        major: Computer Science and Mathematics
-        minor: ''
-        degree: B.S.
-      render: false
 projects:
   label: "Projects"
   rank: 3
