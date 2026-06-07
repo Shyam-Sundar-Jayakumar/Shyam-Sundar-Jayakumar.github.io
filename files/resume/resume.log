@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.1)  1 APR 2026 02:55
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.1)  7 JUN 2026 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **./resume.tex
 (./resume.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
@@ -25,7 +25,7 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \c@table=\count278
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
 No auxiliary output files.
 
@@ -34,10 +34,10 @@ No auxiliary output files.
 \tabular@tail=\toks19
 \@ta=\toks20
 \undefined@token=\toks21
-\sectionwidth=\dimen149
+\sectionwidth=\dimen151
 \sectionskip=\skip51
-\resumewidth=\dimen150
-\@columnwidth=\dimen151
+\resumewidth=\dimen152
+\@columnwidth=\dimen153
 \c@numberofcolumns=\count279
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -61,10 +61,10 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-12-29 L3 programming layer (loader) 
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
 \g__graphics_track_int=\count280
 \g__pdfannot_backend_int=\count281
 \g__pdfannot_backend_link_int=\count282
@@ -87,9 +87,9 @@ X
 \l__fontspec_emdef_int=\count291
 \l__fontspec_strong_int=\count292
 \l__fontspec_strongdef_int=\count293
-\l__fontspec_tmpa_dim=\dimen152
-\l__fontspec_tmpb_dim=\dimen153
-\l__fontspec_tmpc_dim=\dimen154
+\l__fontspec_tmpa_dim=\dimen154
+\l__fontspec_tmpb_dim=\dimen155
+\l__fontspec_tmpc_dim=\dimen156
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -111,22 +111,22 @@ File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count294
 \mult@box=\box53
-\multicol@leftmargin=\dimen155
+\multicol@leftmargin=\dimen157
 \c@unbalance=\count295
 \c@collectmore=\count296
 \doublecol@number=\count297
 \multicoltolerance=\count298
 \multicolpretolerance=\count299
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
+\full@width=\dimen158
+\page@free=\dimen159
+\premulticols=\dimen160
+\postmulticols=\dimen161
 \multicolsep=\skip66
 \multicolbaselineskip=\skip67
 \partial@page=\box54
 \last@line=\box55
 \mc@boxedresult=\box56
-\maxbalancingoverflow=\dimen160
+\maxbalancingoverflow=\dimen162
 \mult@rightbox=\box57
 \mult@grightbox=\box58
 \mult@firstbox=\box59
@@ -170,9 +170,9 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@minrows=\count300
 \c@columnbadness=\count301
 \c@finalcolumnbadness=\count302
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
+\last@try=\dimen163
+\multicolovershoot=\dimen164
+\multicolundershoot=\dimen165
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
 \mc@col@check@num=\count303
@@ -201,7 +201,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
@@ -237,7 +237,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -258,12 +258,12 @@ Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen164
+\@linkdim=\dimen166
 \Hy@linkcounter=\count307
 \Hy@pagecounter=\count308
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -271,23 +271,23 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 \Hy@SavedSpaceFactor=\count309
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count310
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen165
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen167
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -297,15 +297,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count311
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count312
 \c@Item=\count313
 \c@Hfootnote=\count314
@@ -313,7 +313,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \pdfm@box=\box99
 \c@Hy@AnnotLevel=\count315
 \HyField@AnnotCount=\count316
@@ -334,7 +334,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen168
+\enit@outerparindent=\dimen170
 \enit@toks=\toks24
 \enit@inbox=\box100
 \enit@count@id=\count319
@@ -561,14 +561,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [3]
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
+L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11598 strings out of 468179
- 231302 string characters out of 5435044
- 699271 words of memory out of 5000000
- 40224 multiletter control sequences out of 15000+600000
+ 11597 strings out of 467992
+ 231278 string characters out of 5431321
+ 702704 words of memory out of 5000000
+ 40405 multiletter control sequences out of 15000+600000
  628177 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,11n,79p,301b,384s stack positions out of 10000i,1000n,20000p,200000b,200000s
