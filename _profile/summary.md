@@ -1,14 +1,10 @@
-[Aerospace Engineering] graduate student at [University of Illinois at Urbana Champaign] conducting research in experimental and computational fluid mechanics, with a particular focus on turbulent flows, coherent structures, and data-driven flow analysis. My current work involves time-resolved PIV investigations of separated turbulent boundary layers, modal decomposition techniques including POD, SPOD, and DMD, multiphase flows and experimental studies of environmental and renewable energy flows. With prior experience in CFD, turbulence modeling, and fluid–structure interaction, I am interested in advancing the fundamental understanding of turbulent flow physics through a combination of experiments, computation, and reduced-order modeling. My research contributions have resulted in multiple peer-reviewed journal and conference publications spanning fluid mechanics, aerodynamics, and renewable energy applications.
+[Aerospace Engineering] graduate student at [University of Illinois at Urbana Champaign] with strong expertise in computational fluid dynamics (CFD), aerodynamics, and finite element analysis. Experienced in CFD validation and verification, turbulence modeling, Vehicle Design and Analysis and unsteady flow analysis using CATIA, SolidWorks, OpenFOAM and ANSYS. Proven research ability demonstrated through peer-reviewed publications and hands-on experience in UAV design, computional analysis, and data-driven flow modeling.
 
 **My interests:**
-
-* Fluid Mechanics
-* Turbulence and Coherent Structures
-* Time-Resolved PIV and Flow Diagnostics
-* Modal Decomposition and Reduced-Order Modeling
 * Computational Fluid Dynamics
-* Flow Instability and Transition
-
+* Aerodynamics
+* Finite Element analysis
+* Vehicle and tool design and analysis
 
 [This University]: https://wisc.edu
 [This Professor]: https://wisc.edu
