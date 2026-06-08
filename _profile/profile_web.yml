@@ -148,32 +148,32 @@ projects:
   rank: 3
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
-      - value:
-          name: Modal Reconstruction of Separated Flows
-          description: "Design and development of fixed wing RC plane"
-          team: "_with Prof. Theresa Saxton-Fox, Dr. Akhileshwar Borra_"
-          note: ""
-          thumbnail: SAE_RC.jpeg
-          highlights:
-            - brief: ""
-              detail: ""
-          keywords:
-            - resume
-            - website
-            - YAML
-            - markdown
-          startDate: '2023' # string
-          endDate: '2023' 
-          # If webPage is not provided, then url will be linked in the homepage for this project
-          url: ""
-          roles:
-            - Architect
-            - Developer
-          type: application
-          webPage:
-            slug: sae-rc
-            detail: project/separated-flow.md # if the content is empty, "url" will be linked in the homepage for the project
-        render: true
+    - value:
+        name: Modal Reconstruction of Separated Flows
+        description: "Design and development of fixed wing RC plane"
+        team: "_with Prof Theresa Saxton-Fox, Dr Akhileshwar Borra_"
+        note: ""
+        thumbnail: SAE_RC.jpeg
+        highlights:
+          - brief: ""
+            detail: ""
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2025' # string
+        endDate: '2026' 
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: ""
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: separated-flow
+          detail: project/separated-flow.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
     - value:
         name: SAE Aero Design Challenge
         description: "Design and development of fixed wing RC plane"
