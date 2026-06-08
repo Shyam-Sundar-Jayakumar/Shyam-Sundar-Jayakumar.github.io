@@ -1,90 +1,88 @@
-Understanding the dominant coherent structures governing separated turbulent boundary layer flows through modal decomposition and reconstruction techniques based on backflow dynamics.
+Understanding the dominant coherent structures governing separated turbulent boundary layer flows through modal decomposition techniques and reconstruction frameworks based on backflow dynamics.
 
-_Representative flow reconstruction and modal analysis_
+_Representative reconstruction and modal analysis_
 
 | | | |
 |-|-|-|
-|![meanflow](backflow/meanflow.jpg)|![spod](backflow/spod.jpg)|![reconstruction](backflow/reconstruction.jpg)|
+|![spod](backflow/spod.jpg)|![reconstruction](backflow/reconstruction.jpg)|![backflow](backflow/backflow.jpg)|
 
-_Mean flow field_      _SPOD mode structure_      _Flow reconstruction_
+        _SPOD modes_              _Flow reconstruction_             _Backflow field_
 
 ---
 
 ##### Goal of this project
 
-* To investigate the dominant coherent structures present in separated turbulent boundary layers.
+* To study the dominant coherent structures present in separated turbulent boundary layers.
 * To implement modal decomposition techniques such as POD, DMD and SPOD.
-* To develop reconstruction frameworks using reduced modal representations.
-* To study the relationship between backflow dynamics and separated flow behavior.
-* To quantify reconstruction accuracy using statistical error metrics.
+* To develop reduced-order reconstruction frameworks based on backflow dynamics.
+* To evaluate the accuracy of the reconstructed flow fields.
 
 ---
 
 ##### Motivation
 
-Separated turbulent boundary layers are commonly encountered in aerospace applications and are associated with increased drag and flow instability. While modal decomposition techniques can identify dominant coherent structures, the ability of localized backflow information to reconstruct global flow behavior remains an open research question.
+Separated turbulent boundary layers contain a wide range of flow structures interacting across multiple length and time scales. Understanding these structures using reduced-order techniques can provide valuable physical insight while significantly reducing the complexity of the dataset.
 
-This project focuses on understanding whether backflow can be used as a physically meaningful indicator to reconstruct separated turbulent flow fields using reduced-order representations.
+This project focuses on investigating whether backflow dynamics can be used to reconstruct and understand separated flow behavior.
 
 ---
 
 ##### Research process
 
-_data preparation_
+_Preparation of velocity datasets_
 
-* Time-resolved velocity datasets were processed and decomposed into mean and fluctuating components.
-* Spatial and temporal consistency checks were performed before modal analysis.
+* Time-resolved velocity fields were processed and decomposed into mean and fluctuating components.
+* The datasets were prepared for modal decomposition and statistical analysis.
 
 | | |
 |-|-|
-|![instantaneous](backflow/instantaneous.jpg)|![mean](backflow/mean.jpg)|
+|![instantaneous](backflow/instantaneous.jpg)|![meanflow](backflow/meanflow.jpg)|
 
-_Instantaneous velocity field_          _Mean velocity field_
+          _Instantaneous velocity field_           _Mean velocity field_
 
 ---
 
-_modal decomposition_
+_Implementation of modal decomposition techniques_
 
-* Proper Orthogonal Decomposition (POD), Dynamic Mode Decomposition (DMD) and Spectral Proper Orthogonal Decomposition (SPOD) were implemented.
-* Dominant coherent structures and their associated modal energies were extracted.
+* POD, DMD and SPOD were implemented to identify dominant flow structures.
+* Modal energies and frequency content of the structures were analyzed.
 
 | | | |
 |-|-|-|
-|![pod](backflow/pod.jpg)|![dmd](backflow/dmd.jpg)|![spod](backflow/spodmode.jpg)|
+|![pod](backflow/pod.jpg)|![dmd](backflow/dmd.jpg)|![spodmode](backflow/spodmode.jpg)|
 
-_POD modes_      _DMD modes_      _SPOD modes_
+          _POD mode_                 _DMD mode_                  _SPOD mode_
 
 ---
 
-_flow reconstruction_
+_Development of reconstruction framework_
 
 * Reduced-order reconstructions were generated using selected modal coefficients.
-* Multiple modal combinations were tested to determine the minimum modal content required for accurate reconstruction.
+* The reconstructed flow fields were compared with the original datasets.
 
 | | |
 |-|-|
-|![orig](backflow/original.jpg)|![recon](backflow/reconstructed.jpg)|
+|![original](backflow/original.jpg)|![reconstructed](backflow/reconstructed.jpg)|
 
-_Original field_        _Reconstructed field_
-
----
-
-_error analysis_
-
-* Reconstruction quality was evaluated using RMSE, correlation coefficients and energy recovery metrics.
-* Performance comparisons were conducted across POD, DMD and SPOD methodologies.
-
-![error](backflow/error.jpg)
-
-_Reconstruction error distribution_
+          _Original flow field_            _Reconstructed flow field_
 
 ---
 
-##### Results
+_Analysis of backflow dynamics_
 
-* Successfully implemented POD, DMD and SPOD frameworks.
-* Demonstrated accurate reconstruction using a reduced set of dominant modes.
-* Identified relationships between backflow dynamics and coherent flow structures.
-* Established a framework for physics-based reconstruction of separated turbulent flows.
+* Backflow regions were identified throughout the dataset.
+* Correlations between backflow and dominant modal structures were investigated.
+
+![backflowcorr](backflow/backflowcorr.jpg)
+
+_Analysis of backflow dynamics_
+
+---
+
+##### Current status
+
+* POD, DMD and SPOD frameworks have been successfully implemented.
+* Reconstruction methodologies are currently being evaluated.
+* Analysis of backflow-based reconstruction performance is ongoing.
 
 ---
