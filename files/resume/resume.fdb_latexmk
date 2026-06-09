@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1781034857.49973 "resume.xdv" "resume.pdf" "resume" 1781034857.74029 0
-  "resume.xdv" 1781034857.43871 47464 9b49875782351c34c83ced8df7d89b67 "xelatex"
+["xdvipdfmx"] 1781036735.39395 "resume.xdv" "resume.pdf" "resume" 1781036735.67688 0
+  "resume.xdv" 1781036735.32139 47464 7699665f32835db71abd9938e43bfa57 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1781034849.4218 "./resume.tex" "resume.xdv" "resume" 1781034857.73958 0
-  "./resume.tex" 1781034849.14374 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+["xelatex"] 1781036725.50469 "./resume.tex" "resume.xdv" "resume" 1781036735.67588 0
+  "./resume.tex" 1781036724.80015 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -54,9 +54,9 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1775014713 5954837 05b517c1a452f7b5a408af38e6f5d7bd ""
   "/opt/texlive/texdir/texmf.cnf" 1775014585 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "res.cls" 1781034849.14374 25065 00878584ba637ae375b57ce6f6d58323 ""
-  "resume.aux" 1781034841.42099 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "resume.tex" 1781034849.14374 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+  "res.cls" 1781036724.80015 25065 00878584ba637ae375b57ce6f6d58323 ""
+  "resume.aux" 1781036717.50391 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "resume.tex" 1781036724.80015 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   (generated)
   "resume.aux"
   "resume.log"
