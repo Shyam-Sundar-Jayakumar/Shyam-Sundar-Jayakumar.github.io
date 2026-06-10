@@ -150,10 +150,10 @@ projects:
   list:
     - value:
         name: Modal Reconstruction of Separated Flows
-        description: "Design and development of fixed wing RC plane"
+        description: "Modal Analysis and Reconstruction of Separated Boundary-Layer Dynamics Using POD, SPOD, and DMD with Backflow-Based Evaluation"
         team: "_with Prof Theresa Saxton-Fox, Dr Akhileshwar Borra_"
         note: ""
-        thumbnail: SAE_RC.jpeg
+        thumbnail: mode.png
         highlights:
           - brief: ""
             detail: ""
