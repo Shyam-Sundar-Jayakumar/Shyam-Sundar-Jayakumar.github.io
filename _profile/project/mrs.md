@@ -43,7 +43,7 @@ _Validation against analytical solutions_
 * Drag predictions were computed for spheres and ellipsoids with aspect ratios ranging from highly oblate to highly prolate geometries.
 * Numerical predictions were compared against analytical drag formulations available in literature.
 
-![validation](regularized-stokeslets/figure1.png)
+![validation](regularized-stokeslets/aoavalidation.png)
 
 _Drag variation with aspect ratio and comparison with analytical solutions_
 
