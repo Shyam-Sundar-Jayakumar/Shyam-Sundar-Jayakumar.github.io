@@ -4,7 +4,7 @@ _Investigation of separated-flow reconstruction using modal decomposition techni
 
 | | | |
 |-|-|-|
-|![setup](modal-analysis/figure1.png)|![spod_modes](modal-analysis/figure5.png)|![reconstruction](modal-analysis/figure7.png)|
+|![setup](modal-analysis/figure1.jpg)|![spod_modes](modal-analysis/figure5r.png)|![reconstruction](modal-analysis/figure7.png)|
 
 _Experimental setup_          _Leading SPOD modes_          _Flow reconstruction comparison_
 
@@ -35,7 +35,7 @@ _Experimental dataset and flow configuration_
 * Time-resolved PIV measurements of separated turbulent boundary layers over ramp and bump geometries were analyzed.
 * Both geometries produce adverse-pressure-gradient-induced separation and backflow dynamics.
 
-![setup_large](modal-analysis/figure1.png)
+![setup_large](modal-analysis/figure1.jpg)
 
 _Experimental ramp and bump configurations_
 
@@ -57,6 +57,8 @@ _SPOD spectral analysis_
 * Frequency-resolved energy spectra were computed to identify dominant energetic frequencies in the separated flow.
 * Low-frequency peaks were associated with large-scale separation dynamics.
 
+| | |
+|-|-|
 |![bump_spectrum](modal-analysis/figure6b.png)|![ramp_spectrum](modal-analysis/figure6r.png)|
 
 _SPOD energy spectra_
@@ -81,7 +83,8 @@ _Backflow reconstruction analysis_
 * Global backflow percentage was used as a physics-based metric to evaluate reconstruction quality.
 * POD, SPOD and DMD predictions were compared with the original measurements.
 
-
+| | |
+|-|-|
 |![bump_timeseries](modal-analysis/figure8b.png)|![ramp_timeseries](modal-analysis/figure8r.png)|
 
 _Global Backflow for bump geometry_          _Global Backflow for ramp geometry_
