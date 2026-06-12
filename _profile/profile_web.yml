@@ -153,7 +153,7 @@ projects:
         description: "Modal Analysis and Reconstruction of Separated Boundary-Layer Dynamics Using POD, SPOD, and DMD with Backflow-Based Evaluation"
         team: "_with Prof Theresa Saxton-Fox, Dr Akhileshwar Borra_"
         note: ""
-        thumbnail: mode.png
+        thumbnail: figure6b.png
         highlights:
           - brief: ""
             detail: ""
