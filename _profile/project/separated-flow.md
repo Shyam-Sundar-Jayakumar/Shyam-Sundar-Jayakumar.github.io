@@ -45,7 +45,8 @@ _Identification of coherent structures using SPOD_
 
 * Spectral Proper Orthogonal Decomposition was implemented to identify coherent structures organized by frequency.
 * Low-frequency structures associated with separated shear-layer motion were investigated.
-
+| | |
+|-|-|
 |![bump_modes](modal-analysis/figure5b.png)|![ramp_modes](modal-analysis/figure5r.png)|
 
 _Leading SPOD modes for the bump and ramp datasets_
@@ -110,7 +111,8 @@ _Quantitative error analysis_
 * Root Mean Square Error (RMSE) was computed to compare reconstruction performance.
 * POD and SPOD were evaluated across multiple streamwise locations.
 
-
+| | |
+|-|-|
 |![bump_rmse](modal-analysis/figure11b.png)|![ramp_rmse](modal-analysis/figure11r.png)|
 
 _Backflow profiles RMSE for bump_          _Backflow profiles RMSE for ramp_
