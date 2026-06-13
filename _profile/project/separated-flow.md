@@ -45,6 +45,7 @@ _Identification of coherent structures using SPOD_
 
 * Spectral Proper Orthogonal Decomposition was implemented to identify coherent structures organized by frequency.
 * Low-frequency structures associated with separated shear-layer motion were investigated.
+
 | | |
 |-|-|
 |![bump_modes](modal-analysis/figure5b.png)|![ramp_modes](modal-analysis/figure5r.png)|
@@ -123,9 +124,9 @@ _Backflow profiles RMSE for bump_          _Backflow profiles RMSE for ramp_
 
 * Successfully implemented POD and SPOD frameworks for separated turbulent boundary layer datasets.
 * Developed a backflow-based framework for evaluating modal reconstructions.
-* POD reconstruction with 100 retained modes produced lower backflow RMSE than SPOD for both ramp and bump geometries. :contentReference[oaicite:7]{index=7}
-* SPOD provided improved physical interpretation through frequency-resolved coherent structures. :contentReference[oaicite:8]{index=8}
-* Demonstrated that reproducing backflow dynamics is significantly more challenging than reproducing visually similar velocity contours. :contentReference[oaicite:9]{index=9}
+* POD reconstruction with 100 retained modes produced lower backflow RMSE than SPOD for both ramp and bump geometries. 
+* SPOD provided improved physical interpretation through frequency-resolved coherent structures.
+* Demonstrated that reproducing backflow dynamics is significantly more challenging than reproducing visually similar velocity contours.
 
 ---
 
